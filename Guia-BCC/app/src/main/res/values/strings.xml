@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Guia - BCC</string>
+    <!--Valores string das views da tela de login -->
+    <string name="txtNome">User name</string>
+    <string name="txtSenha">Password</string>
+    <string name="textoBtnLogin">Login</string>
+    <string name="textoBtnEsqueciSenha">Forgot my password</string>
 </resources>
