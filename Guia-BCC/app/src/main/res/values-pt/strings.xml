@@ -6,4 +6,8 @@
     <string name="textoBtnLogin">Entrar</string>
     <string name="textoBtnEsqueciSenha">Esqueci minha senha</string>
 
+
+    <!-- Textos do dos fragmentos TabLayout  -->
+    <string name="boas_vindas"> Bem Vindo </string>
+
 </resources>

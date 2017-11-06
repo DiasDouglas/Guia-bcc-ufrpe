@@ -28,6 +28,11 @@ public class SectionsPageAdapter extends FragmentPagerAdapter {
     }
 
     @Override
+    public CharSequence getPageTitle(int position){
+        return this.titulosFragmentos.get(position);
+    }
+
+    @Override
     public Fragment getItem(int position) {
         return listaDeFragmentos.get(position);
     }

@@ -15,6 +15,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
+        Fragmentos de acctivity
+        <activity android:name=".Tab_Inicio" />
+        <activity android:name=".Tab_Avaliacoes" />
+        <activity android:name=".Tab_Questoes" />
+        <activity android:name=".Tab_ENADE">
+        </activity>
+        <activity android:name=".Tab_Inicial"></activity>
+        -->
+
+        <activity
+            android:name=".CamposUsuario"
+            android:label="@string/title_activity_campos_usuario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

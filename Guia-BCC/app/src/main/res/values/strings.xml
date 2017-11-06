@@ -5,4 +5,13 @@
     <string name="txtSenha">Password</string>
     <string name="textoBtnLogin">Login</string>
     <string name="textoBtnEsqueciSenha">Forgot my password</string>
+
+    <!-- Textos do dos fragmentos TabLayout  -->
+    <string name="boas_vindas"> Welcome </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_campos_usuario">CamposUsuario</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
