@@ -7,7 +7,16 @@
     <string name="textoBtnEsqueciSenha">Forgot my password</string>
 
     <!-- Textos do dos fragmentos TabLayout  -->
+    <!--Strings referentes à view da tela inicial-->
     <string name="boas_vindas"> Welcome </string>
+    <string name="txtProximasAulas">Your next classes are going to be:</string>
+
+    <!--Strings referentes às views da tela avaliações-->
+
+    <!--Strings referentes às views da tela Questões-->
+
+    <!--Strings referentes às views da tela ENADE-->
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

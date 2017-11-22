@@ -8,6 +8,14 @@
 
 
     <!-- Textos do dos fragmentos TabLayout  -->
+    <!--Strings referentes à view da tela inicial-->
     <string name="boas_vindas"> Bem Vindo </string>
+    <string name="txtProximasAulas">Your next classes are going to be:</string>
+
+    <!--Strings referentes às views da tela avaliações-->
+
+    <!--Strings referentes às views da tela Questões-->
+
+    <!--Strings referentes às views da tela ENADE-->
 
 </resources>

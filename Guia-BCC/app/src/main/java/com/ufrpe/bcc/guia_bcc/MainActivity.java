@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent myIntent = new Intent(MainActivity.this,CamposUsuario.class);
                 if(edtNomeUsuario.getText().toString() != null)
-                    myIntent.putExtra("Nome Usuario: ", edtNomeUsuario.getText().toString() );
+                    myIntent.putExtra("nome_usuario", edtNomeUsuario.getText().toString() );
                 startActivity(myIntent);
             }
         });

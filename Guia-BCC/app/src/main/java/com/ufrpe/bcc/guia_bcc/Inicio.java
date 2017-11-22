@@ -6,17 +6,21 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class Inicio extends Fragment {
 
     private static final String nomeInicial ="Inicio";
+
+    private TextView tvNomeUsuario;
 
 
     @Override
     public View onCreateView(LayoutInflater lif, @Nullable ViewGroup container , @Nullable Bundle savedInstanceState){
         View  myView = getLayoutInflater(savedInstanceState).inflate(R.layout.tab_inicio,container,false);
 
-        return myView;
+
+          return myView;
     }
 
 
