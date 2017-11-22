@@ -13,7 +13,7 @@ public class Professor {
                               nota de cada curso será definido posteriormente*/
 
     public Professor(String nomeProfessor){
-
+        this.setNomeProfessor(nomeProfessor);
     }
 
     public void setNomeProfessor(String nomeProfessor) {

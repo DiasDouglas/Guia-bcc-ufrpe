@@ -9,28 +9,28 @@
         android:textColor="@color/pureDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nomeDisciplina"
+        android:id="@+id/tvNomeDisciplina"
         android:textSize="@dimen/lvItemNomeDisciplina"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
+        android:orientation="horizontal">
         <TextView
             android:text="Nome Do professor"
             android:textSize="@dimen/lvItemNomeProfessor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/nomeProfessor"
-            android:layout_weight="1"/>
+            android:id="@+id/tvNomeProfessor"
+            android:layout_weight="1"
+            />
 
         <TextView
             android:text="Nota da disciplina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/lvItemNotaDisciplina"
-            android:id="@+id/notaDisciplina"
+            android:id="@+id/tvNotaDisciplina"
             android:layout_weight="1"/>
 
 

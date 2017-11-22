@@ -4,4 +4,9 @@
     android:layout_height="match_parent"
     android:id="@+id/tab_avaliacoes">
 
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lvListaDisciplinasGeral"/>
+
 </RelativeLayout>

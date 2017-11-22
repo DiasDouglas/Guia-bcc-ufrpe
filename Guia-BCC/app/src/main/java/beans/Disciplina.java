@@ -16,9 +16,10 @@ public class Disciplina {
 
     public Disciplina(){}
 
-    public Disciplina(String nomeDisciplina, Professor professorDisciplina){
+    public Disciplina(String nomeDisciplina, Professor professorDisciplina, float notaCurso){
         this.setNomeDisciplina(nomeDisciplina);
         this.setProfessorDisciplina(professorDisciplina);
+        this.setNotaCurso(notaCurso);
     }
 
     public void setNomeDisciplina(String nomeDisciplina) {
@@ -40,11 +41,26 @@ public class Disciplina {
             throw new IllegalArgumentException("Valo fora do intervalo");
     }
 
+    public void setSemestreAtual(String semestreAtual) {
+         if(semestreAtual != null)
+            this.semestreAtual = semestreAtual;
+        else
+             throw new NullPointerException("Valor nulo");
+    }
+
     public String getNomeDisciplina() {
         return nomeDisciplina;
     }
 
     public Professor getProfessorDisciplina() {
         return professorDisciplina;
+    }
+
+    public float getNotaCurso() {
+        return notaCurso;
+    }
+
+    public String getSemestreAtual() {
+        return semestreAtual;
     }
 }
