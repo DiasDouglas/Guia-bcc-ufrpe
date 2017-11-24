@@ -10,9 +10,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import adapters.ListaDeDisciplinasAdapter;
-import beans.Disciplina;
-import beans.Professor;
+import adapters.ListaDeDisciplinasCursadasAdapter;
+import beans.DisciplinaCursada;
 
 public class Avaliacoes extends Fragment {
 
@@ -25,7 +24,7 @@ public class Avaliacoes extends Fragment {
 
         ListView lvListaDisciplinasGeral = (ListView) myView.findViewById(R.id.lvListaDisciplinasGeral);
 
-        ListaDeDisciplinasAdapter adapterLista = new ListaDeDisciplinasAdapter(getCursos(),this,savedInstanceState);
+        ListaDeDisciplinasCursadasAdapter adapterLista = new ListaDeDisciplinasCursadasAdapter(getCursos(),this,savedInstanceState);
 
         lvListaDisciplinasGeral.setAdapter(adapterLista);
 
@@ -33,22 +32,23 @@ public class Avaliacoes extends Fragment {
     }
 
     ///Método de  testes para retornar disciplina cursadas pelo aluno
-    public ArrayList<Disciplina> getCursos(){
-        ArrayList<Disciplina> lista = new ArrayList<Disciplina>();
-        lista.add(new Disciplina("Arquitetura e organização de computadores",new Professor("Andre Aziz"),1.1f));
-        lista.add(new Disciplina("Matemática Discreta II",new Professor("Vanilson Burégio"),10.0f));
-        lista.add(new Disciplina("Sistemas Distribuidos",new Professor("Fernando Aires"),9.5f));
-        lista.add(new Disciplina("Algorítmos e estruturas de dados",new Professor("Luciano"),0.0f));
-        lista.add(new Disciplina("Engenharia de software",new Professor("Marcelo Marinho"),4.5f));
-        lista.add(new Disciplina("Matemática Discreta I",new Professor("Felipe Cordeiro"),1.1f));
-        lista.add(new Disciplina("Introdução a programação I",new Professor("Péricles Miranda"),10.0f));
-        lista.add(new Disciplina("Introdução a programação II",new Professor("Leandro Marques"),9.5f));
-        lista.add(new Disciplina("Redes de computadores",new Professor("Obionor Nóbrega"),8.5f));
-        lista.add(new Disciplina("Teoria da computação",new Professor("Adeniltom Silva"),4.5f));
-        lista.add(new Disciplina("Projeto e Análise de Algorítmos",new Professor("Jeane"),9.5f));
-        lista.add(new Disciplina("Circuitos digitais",new Professor("Abner"),8.5f));
-        lista.add(new Disciplina("Teoria da computação",new Professor("Adeniltom Silva"),4.5f));
-        lista.add(new Disciplina("Iteligência Artificial",new Professor("Valmir Nogueira"),4.5f));
+    public ArrayList<DisciplinaCursada> getCursos(){
+        ArrayList<DisciplinaCursada> lista = new ArrayList<DisciplinaCursada>();
+        lista.add(new DisciplinaCursada("Arquitetura e organização de computadores","Andre Aziz",4,"25/11/2017","26/11/2017", false,"2017.2"));
+        lista.add(new DisciplinaCursada("Matemática Discreta II","Vanilson Burégio",25,"25/11/2017","26/11/2017", false,"2017.2"));
+        lista.add(new DisciplinaCursada("Sistemas Distribuidos","Fernando Aires",15,"25/11/2017","26/11/2017", false,"2017.2"));
+        lista.add(new DisciplinaCursada("Algorítmos e estruturas de dados","Luciano",10,"25/11/2017","26/11/2017", false,"2017.2"));
+        lista.add(new DisciplinaCursada("Engenharia de software","Marcelo Marinho",35,"25/11/2017","26/11/2017", false,"2017.2"));
+        /*
+        deixei com que ele tivesse pagando apenas 5 disciplinas
+        lista.add(new DisciplinaCursada("Matemática Discreta I","Felipe Cordeiro",40,1.1f));
+        lista.add(new DisciplinaCursada("Introdução a programação I","Péricles Miranda",40,10.0f));
+        lista.add(new DisciplinaCursada("Introdução a programação II","Leandro Marques",34,9.5f));
+        lista.add(new DisciplinaCursada("Redes de computadores","Obionor Nóbrega",50,8.5f));
+        lista.add(new DisciplinaCursada("Teoria da computação","Adeniltom Silva",14,4.5f));
+        lista.add(new DisciplinaCursada("Projeto e Análise de Algorítmos","Jeane",16,9.5f));
+        lista.add(new DisciplinaCursada("Circuitos digitais","Abner",60,8.5f));
+        lista.add(new DisciplinaCursada("Iteligência Artificial","Valmir Nogueira",30,4.5f));*/
 
         return lista;
     }

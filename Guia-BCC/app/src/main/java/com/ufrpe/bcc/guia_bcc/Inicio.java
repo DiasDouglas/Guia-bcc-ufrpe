@@ -11,10 +11,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import adapters.ListaDeDisciplinasAdapter;
+import adapters.ListaDeDisciplinasCursadasAdapter;
 import beans.Aluno;
-import beans.Disciplina;
-import beans.Professor;
+import beans.DisciplinaCursada;
 
 public class Inicio extends Fragment {
 
@@ -32,7 +31,7 @@ public class Inicio extends Fragment {
 
         ListView listaDeCurso = (ListView) myView.findViewById(R.id.lvCursosTelaInicial);
 
-        ListaDeDisciplinasAdapter adapter = new ListaDeDisciplinasAdapter(aluno.getDisciplinasCursadas(),this,savedInstanceState);
+        ListaDeDisciplinasCursadasAdapter adapter = new ListaDeDisciplinasCursadasAdapter(aluno.getDisciplinasCursadas(),this,savedInstanceState);
 
         listaDeCurso.setAdapter(adapter);
 
@@ -41,13 +40,11 @@ public class Inicio extends Fragment {
 
 
     ///Método de  testes para retornar disciplina cursadas pelo aluno
-    public ArrayList<Disciplina> getCursos(){
-        ArrayList<Disciplina> lista = new ArrayList<Disciplina>();
-        lista.add(new Disciplina("Arquitetura e organização de computadores",new Professor("Andre Aziz"),1.1f));
-        lista.add(new Disciplina("Matemática Discreta II",new Professor("Vanilson Burégio"),10.0f));
-        lista.add(new Disciplina("Sistemas Distribuidos",new Professor("Fernando Aires"),9.5f));
-        lista.add(new Disciplina("Algorítmos e estruturas de dados",new Professor("Luciano"),8.5f));
-        lista.add(new Disciplina("Engenharia de software",new Professor("Marcelo Marinho"),4.5f));
+    public ArrayList<DisciplinaCursada> getCursos(){
+        ArrayList<DisciplinaCursada> lista = new ArrayList<DisciplinaCursada>();
+        //supondo que ele tenha apenas essas aulas hoje
+        lista.add(new DisciplinaCursada("Arquitetura e organização de computadores","Andre Aziz",4,"25/11/2017","26/11/2017", false,"2017.2"));
+        lista.add(new DisciplinaCursada("Matemática Discreta II","Vanilson Burégio",25,"25/11/2017","26/11/2017", false,"2017.2"));
 
         return lista;
     }

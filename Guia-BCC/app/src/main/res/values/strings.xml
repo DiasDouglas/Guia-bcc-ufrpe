@@ -12,10 +12,24 @@
     <string name="txtProximasAulas">Your next classes are going to be:</string>
 
     <!--Strings referentes às views da tela avaliações-->
+    <string name="txtProxAvaliacao">Próxima avaliação:</string>
+    <string name="txtProfessor">Professor:</string>
+
 
     <!--Strings referentes às views da tela Questões-->
+    <string name="txtBanco">Banco de Questões</string>
+    <string name="txtBancoSub">Acesse aos arquivos disponíveis das disciplinas dos semestres anteriores</string>
+    <string name="txtUltimaAtt">Última atualização: </string>
+       <!--essa string aqui vai mudar quando o professor disponibilizar o código e eu ver como ele
+       fez pra mudar a sring de acordo com a quantidade-->
+    <string name="txtQtdItensOne">item disponível</string>
+    <string name="txtQtdItensMore">itens disponíveis</string>
+    <string name="txtAvaliacaoGeral">Avaliação geral:</string>
+    <string name="txtAvaliacaoOtima">Ótima</string>
+    <string name="txtAvaliacaoBoa">Boa</string>
+    <string name="txtAvaliacaoRegular">Regular</string>
+    <string name="txtAvaliacaoRuim">Ruim</string>
 
-    <!--Strings referentes às views da tela ENADE-->
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -12,12 +12,12 @@ import java.util.ArrayList;
 public class Aluno {
 
     private String nomeAluno;
-    private ArrayList<Disciplina> disciplinasCursadas;
+    private ArrayList<DisciplinaCursada> disciplinasCursadas;
     private Usuario usuario;
 
     public Aluno(){}
 
-    public Aluno(String nomeAluno, ArrayList<Disciplina> disciplinasCursadas){
+    public Aluno(String nomeAluno, ArrayList<DisciplinaCursada> disciplinasCursadas){
         this.setDisciplinasCursadas(disciplinasCursadas);
         this.setNomeAluno(nomeAluno);
     }
@@ -29,7 +29,7 @@ public class Aluno {
             throw new NullPointerException("Valor nulo");
     }
 
-    public void setDisciplinasCursadas(ArrayList<Disciplina> disciplinasCursadas) {
+    public void setDisciplinasCursadas(ArrayList<DisciplinaCursada> disciplinasCursadas) {
         if(disciplinasCursadas != null)
             this.disciplinasCursadas = disciplinasCursadas;
         else
@@ -40,7 +40,7 @@ public class Aluno {
         this.usuario = usuario;
     }
 
-    public ArrayList<Disciplina> getDisciplinasCursadas() {
+    public ArrayList<DisciplinaCursada> getDisciplinasCursadas() {
         return disciplinasCursadas;
     }
 
