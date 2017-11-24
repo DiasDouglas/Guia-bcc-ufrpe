@@ -53,7 +53,6 @@ public class CamposUsuario extends AppCompatActivity {
         mSpa.adicionarFragmento(new Inicio(),"Inicio");
         mSpa.adicionarFragmento(new Avaliacoes(),"Avaliacoes");
         mSpa.adicionarFragmento(new Questoes(),"Questoes");
-        mSpa.adicionarFragmento(new Enade(),"Enade");
         vp.setAdapter(mSpa);
     }
 

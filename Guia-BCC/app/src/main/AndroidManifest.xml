@@ -20,7 +20,6 @@
         <activity android:name=".Tab_Inicio" />
         <activity android:name=".Tab_Avaliacoes" />
         <activity android:name=".Tab_Questoes" />
-        <activity android:name=".Tab_ENADE">
         </activity>
         <activity android:name=".Tab_Inicial"></activity>
         -->
