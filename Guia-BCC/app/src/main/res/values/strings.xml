@@ -12,24 +12,31 @@
     <string name="txtProximasAulas">Your next classes are going to be:</string>
 
     <!--Strings referentes às views da tela avaliações-->
-    <string name="txtProxAvaliacao">Próxima avaliação:</string>
+    <string name="txtProxAvaliacao">Next appraisal:</string>
     <string name="txtProfessor">Professor:</string>
 
 
     <!--Strings referentes às views da tela Questões-->
-    <string name="txtBanco">Banco de Questões</string>
-    <string name="txtBancoSub">Acesse aos arquivos disponíveis das disciplinas dos semestres anteriores</string>
-    <string name="txtUltimaAtt">Última atualização: </string>
+    <string name="txtBanco">Questions database</string>
+    <string name="txtBancoSub">Access the files available from later semesters</string>
+    <string name="txtUltimaAtt">Last update: </string>
        <!--essa string aqui vai mudar quando o professor disponibilizar o código e eu ver como ele
        fez pra mudar a sring de acordo com a quantidade-->
-    <string name="txtQtdItensOne">item disponível</string>
-    <string name="txtQtdItensMore">itens disponíveis</string>
-    <string name="txtAvaliacaoGeral">Avaliação geral:</string>
-    <string name="txtAvaliacaoOtima">Ótima</string>
-    <string name="txtAvaliacaoBoa">Boa</string>
+    <string name="txtQtdItensOne">Available items</string>
+    <string name="txtQtdItensMore">Available items</string>
+    <string name="txtAvaliacaoGeral">General appraisal:</string>
+    <string name="txtAvaliacaoOtima">Great</string>
+    <string name="txtAvaliacaoBoa">Good</string>
     <string name="txtAvaliacaoRegular">Regular</string>
-    <string name="txtAvaliacaoRuim">Ruim</string>
+    <string name="txtAvaliacaoRuim">Bad</string>
 
+
+    <!-- Strings referentes aos botões das view "frag_selecionar_avaliacao" -->
+    <string name="txtBtnAvaliarDisciplina">Appraise subject</string>
+    <string name="txtBtnAvliarProfessor">Appraise professor</string>
+    <string name="txtBtnVerQuestoesAnteriores">Access questions database</string>
+    <string name="txtBtnVoltar">Back</string>
+    <string name="lblDescricao">Description:</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -10,4 +10,11 @@
     <dimen name="lvItemNomeProfessor">15.5dp</dimen>
     <dimen name="lvItemNotaDisciplina">15.5dp</dimen>
 
+
+    <!--Dimensões referentes a view de selecionar tipo de avaliacao -->
+    <dimen name="dimTxtNomeDisciplina">35dp</dimen>
+    <dimen name="dimPrimeiroBotaoMarginTop">74dp</dimen>
+    <dimen name="dimUltimoBotaoMarginTop">30dp</dimen>
+
+
 </resources>
